@@ -16,7 +16,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_03_114322) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
-    t.string "review"
+    t.text "review"
     t.string "actor"
     t.string "image_url"
     t.datetime "created_at", null: false
